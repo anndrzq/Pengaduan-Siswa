@@ -1,0 +1,50 @@
+ERROR - 2021-03-18 21:37:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-03-18 21:37:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(59): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-18 21:43:32 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-18 22:14:40 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-18 22:18:50 --> Undefined variable: user_id
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(24): view('user/index', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->index()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-18 22:18:55 --> Undefined property: CodeIgniter\View\View::$user_id
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\user\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(24): view('user/index', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->index()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

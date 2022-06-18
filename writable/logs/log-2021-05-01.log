@@ -1,0 +1,20 @@
+CRITICAL - 2021-05-01 13:18:15 --> Invalid file: auth/index.php
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(27): view('auth/index', Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->index()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-01 13:38:36 --> Invalid file: auth/register.php
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.p...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(104): view('auth/register', Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

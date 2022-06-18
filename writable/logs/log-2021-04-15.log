@@ -1,0 +1,179 @@
+ERROR - 2021-04-15 11:44:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-15 11:44:39 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(59): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-15 14:30:09 --> Call to undefined method App\Models\UserModel::getResult
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(33): App\Models\UserModel->getUserProfile('1')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->getProfile()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-15 14:57:25 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->getProfile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 14:57:40 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->getProfile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 17:12:28 --> Undefined property: App\Controllers\User::$output
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-04-15 17:21:11 --> mysqli_sql_exception: Table 'ci4_pengaduan.tbl' doesn't exist in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('raja123', 'user', Array, NULL)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'raja123', Array, Array)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(59): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-04-15 17:21:11 --> Table 'ci4_pengaduan.tbl' doesn't exist
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('raja123', 'user', Array, NULL)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'raja123', Array, Array)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(59): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-04-15 17:21:15 --> mysqli_sql_exception: Table 'ci4_pengaduan.tbl' doesn't exist in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('raja123', 'user', Array, NULL)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'raja123', Array, Array)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(59): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-04-15 17:21:15 --> Table 'ci4_pengaduan.tbl' doesn't exist
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('raja123', 'user', Array, NULL)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('username', 'username', 'raja123', Array, Array)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(59): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-04-15 18:09:36 --> syntax error, unexpected ''valid_email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('user')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 18:39:29 --> Undefined property: App\Controllers\User::$session
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 18:39:31 --> Undefined property: App\Controllers\User::$session
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 18:39:48 --> Undefined property: App\Controllers\User::$session
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-15 18:40:38 --> Call to undefined method CodeIgniter\Session\Session::setFlastdata()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-15 18:40:40 --> Call to undefined method CodeIgniter\Session\Session::setFlastdata()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-15 18:40:48 --> Call to undefined method CodeIgniter\Session\Session::setFlastdata()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-15 19:08:37 --> syntax error, unexpected '')) : ?>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('templates/sideb...', NULL, true)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Views\templates\index.php(39): CodeIgniter\View\View->include('templates/sideb...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('templates/index', Array, true)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/pengaduan/...', Array, true)
+#7 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(27): view('user/pengaduan/...', Array)
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->index()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}

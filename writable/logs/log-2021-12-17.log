@@ -1,0 +1,36 @@
+CRITICAL - 2021-12-17 08:50:31 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:50:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:51:12 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:52:06 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:52:16 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:52:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 08:52:46 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 09:06:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}
+CRITICAL - 2021-12-17 09:08:55 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\spark(53): require('C:\\Users\\user\\O...')
+#2 {main}

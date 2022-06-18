@@ -1,0 +1,15 @@
+h4,
+label,
+.card-detail>.card-body>.row>.col-md-8,
+.table-detail td,
+.table>thead>tr>* {
+    color: black;
+}
+
+.table-main {
+    text-align: center;
+}
+
+.table>tbody>tr>* {
+    vertical-align: middle;
+}

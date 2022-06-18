@@ -1,0 +1,155 @@
+CRITICAL - 2021-03-17 11:27:48 --> Undefined index: images
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 11:28:12 --> Undefined index: images
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 11:28:59 --> Illegal offset type
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 11:31:21 --> Illegal offset type
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 11:41:40 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 182, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(182): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(45): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1615999300_7362...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-17 11:42:32 --> Could not move file php8C89.tmp to C:\xampp\htdocs\ci4_pengaduan\writable\/ ()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8C89.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(45): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '/uploads', true)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-17 11:53:41 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-17 12:01:13 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-17 12:01:57 --> Undefined variable: imgRules
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 12:05:25 --> Undefined property: App\Controllers\Pengaduan::$session
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 12:05:29 --> Undefined property: App\Controllers\Pengaduan::$session
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 12:05:58 --> Undefined variable: imgRules
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-17 12:10:20 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-17 12:11:21 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-17 12:11:30 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah_pengaduan()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-17 12:14:53 --> Undefined variable: img
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\user\tambah_pengaduan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/tambah_pen...', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(34): view('user/tambah_pen...', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-17 12:15:07 --> Undefined variable: img
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\user\tambah_pengaduan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/tambah_pen...', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(34): view('user/tambah_pen...', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-17 12:15:18 --> Undefined variable: img
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\user\tambah_pengaduan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/tambah_pen...', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(34): view('user/tambah_pen...', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->tambah()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

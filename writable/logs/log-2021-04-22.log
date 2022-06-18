@@ -1,0 +1,29 @@
+CRITICAL - 2021-04-22 11:55:35 --> Undefined index: password
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_profile()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 13:41:06 --> Undefined property: stdClass::$user_image
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 14:36:31 --> Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Unparenthesized...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 [internal function]: spl_autoload_call('App\\Controllers...')
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

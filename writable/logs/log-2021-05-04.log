@@ -1,0 +1,165 @@
+CRITICAL - 2021-05-04 11:42:06 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->index()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-05-04 12:52:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_pengaduan`
+WHERE `row_stat...' at line 1 in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 12:52:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_pengaduan`
+WHERE `row_stat...' at line 1
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-04 12:52:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_pengaduan`
+WHERE `row_stat...' at line 1 in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 12:52:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_pengaduan`
+WHERE `row_stat...' at line 1
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 12:53:11 --> Undefined property: stdClass::$created_at
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-05-04 12:56:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y-%m-%d %h:%i %p") as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM...' at line 1 in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 12:56:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y-%m-%d %h:%i %p") as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM...' at line 1
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-04 12:56:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y-%m-%d %h:%i %p") as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM...' at line 1 in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 12:56:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Y-%m-%d %h:%i %p") as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM...' at line 1
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-04 15:00:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%d %M %Y) as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_peng...' at line 1 in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-04 15:00:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%d %M %Y) as created_at, `judul_pengaduan`, `status_pengaduan`
+FROM `tbl_peng...' at line 1
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, DA...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, DA...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, DA...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, DA...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Models\Admin\PengaduanModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(88): App\Models\Admin\PengaduanModel->get_datatables()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->dt_pengaduan()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

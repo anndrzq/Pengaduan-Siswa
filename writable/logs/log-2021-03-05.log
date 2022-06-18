@@ -1,0 +1,575 @@
+ERROR - 2021-03-05 05:28:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-03-05 05:28:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(52): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 05:29:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 05:32:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\admin\detail_pengaduan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/detail_pe...', Array, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Admin\Pengaduan.php(93): view('admin/detail_pe...', Array)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\admin\Pengaduan->detail('22')
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Pengaduan))
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-05 06:07:18 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(93): view('auth/register', Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->register()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 06:27:53 --> Call to undefined function App\Controllers\getExtension()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_register()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 06:42:47 --> Could not move file phpA78C.tmp to img/ktp/ ()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpA78C.tmp', 'img/ktp/', '')
+#1 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(152): CodeIgniter\HTTP\Files\UploadedFile->move('img/ktp/', 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_register()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-05 06:44:06 --> Undefined property: App\Controllers\Auth::$pengaduan
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 154, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_register()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-03-05 06:48:41 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_register()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-03-05 06:48:41 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_register()
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-03-05 07:45:03 --> Config\App\Filters\Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(527): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Config\\App\\Filt...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-05 07:45:54 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-05 07:47:25 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php on line 34
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('/admin/pengadua...', 'Admin\\Pengaduan...', 'filter => auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 07:47:30 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php on line 34
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('/admin/pengadua...', 'Admin\\Pengaduan...', 'filter => auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 07:47:51 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php on line 34
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('/admin/pengadua...', 'Admin\\Pengaduan...', 'filter => auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 07:48:16 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php on line 34
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('/admin/pengadua...', 'Admin\\Pengaduan...', 'filter => auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 07:49:07 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php on line 34
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->get('/admin/pengadua...', 'Admin\\Pengaduan...', 'filter => Auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 08:15:45 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan/index', 'before')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-05 08:16:29 --> Class 'Config\Auth' not found
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('auth', 'before')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-05 08:18:22 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 08:23:45 --> Undefined index: btn-submit
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 08:23:58 --> Undefined index: btn-submit
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 08:24:07 --> Undefined index: btn-submit
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->validasi_login()
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 08:29:40 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(172): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 08:29:59 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(172): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 08:33:01 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\Pengaduan.php(20): redirect('/auth')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pengaduan->index()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:00 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:13 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:22 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:23 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:25 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:27 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth/register', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:11:54 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(26): redirect('/pengaduan')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth/logout', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 11:43:00 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci4_pengaduan\app\Filters\Login.php(24): redirect('/admin/pengadua...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(207): App\Filters\Login->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('auth/logout', 'after')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 12:28:19 --> Class 'App\Filters\Login' not found
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-05 12:28:35 --> Class 'Config\App\Filters\LoginFilter' not found
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-03-05 12:32:01 --> role filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:39:37 --> role filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:40:02 --> role filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:40:15 --> role filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:40:22 --> role filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('role', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:41:01 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:47:33 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegments()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:48:48 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::segments()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:48:53 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Rol...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Rol...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(172): spl_autoload_call('App\\Filters\\Rol...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 12:48:57 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$segments
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 12:49:07 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:49:53 --> syntax error, unexpected 'dd' (T_STRING)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Rol...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Rol...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(172): spl_autoload_call('App\\Filters\\Rol...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 12:50:08 --> Cannot access protected property CodeIgniter\HTTP\URI::$segments
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:50:58 --> Undefined property: CodeIgniter\HTTP\URI::$segment
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 12:51:04 --> Cannot access protected property CodeIgniter\HTTP\URI::$segments
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:51:09 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 12:51:16 --> Call to undefined method CodeIgniter\HTTP\URI::segments()
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-03-05 13:12:48 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:13:12 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:13:14 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:13:30 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:14:07 --> syntax error, unexpected '!'
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Rol...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Rol...')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(172): spl_autoload_call('App\\Filters\\Rol...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-05 13:18:33 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:18:34 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:19:13 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:19:26 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:19:47 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:20:55 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:21:55 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:21:58 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:22:00 --> Undefined variable: adminUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:22:03 --> Undefined variable: userUrl
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-05 13:25:57 --> Undefined variable: url
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Filters\RoleFilter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): App\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('pengaduan', 'before')
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,30 @@
+ERROR - 2021-11-18 19:59:23 --> Table 'ci4_pengaduan.tbl_user' doesn't exist in engine
+CRITICAL - 2021-11-18 19:59:23 --> Table 'ci4_pengaduan.tbl_user' doesn't exist in engine
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id`, `n...')
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\app\Controllers\BaseController.php(61): App\Models\UserModel->getUserLogin(NULL)
+#7 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#8 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#9 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\O...')
+#12 {main}
+ERROR - 2021-11-18 19:59:42 --> Table 'ci4_pengaduan.tbl_user' doesn't exist in engine
+CRITICAL - 2021-11-18 19:59:42 --> Table 'ci4_pengaduan.tbl_user' doesn't exist in engine
+#0 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `id`, `n...')
+#1 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\app\Controllers\BaseController.php(61): App\Models\UserModel->getUserLogin(NULL)
+#7 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#8 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#9 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\user\OneDrive\Desktop\UJI KOM\pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\O...')
+#12 {main}

@@ -1,0 +1,56 @@
+ERROR - 2021-04-26 11:44:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-26 11:44:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\BaseController.php(61): App\Models\UserModel->getUserLogin(NULL)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-04-26 11:44:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-26 11:44:29 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\BaseController.php(61): App\Models\UserModel->getUserLogin(NULL)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-26 12:41:29 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci4_pengaduan\app\Views\templates\topbar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('templates/topba...', NULL, true)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Views\templates\index.php(49): CodeIgniter\View\View->include('templates/topba...')
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('templates/index', Array, true)
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/profile/ub...', Array, true)
+#9 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\User.php(139): view('user/profile/ub...', Array)
+#10 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->ubah_password()
+#11 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2021-04-26 14:12:14 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

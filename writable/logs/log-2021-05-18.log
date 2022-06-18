@@ -1,0 +1,16 @@
+ERROR - 2021-05-18 09:56:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-05-18 09:56:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\ci4_pengaduan\app\Models\UserModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\ci4_pengaduan\app\Controllers\BaseController.php(61): App\Models\UserModel->getUserLogin(NULL)
+#5 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_pengaduan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4_pengaduan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

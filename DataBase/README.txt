@@ -1,0 +1,8 @@
+DATABASE BERBAYAR
+
+50RB 
+
+BISA MELALUI INSTAGRAM : anndrzq
+BANK HANYA BRI DAN ATAS NAMA ANANDA 
+
+Selain itu adalah penipuan
